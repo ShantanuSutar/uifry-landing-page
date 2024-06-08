@@ -1,10 +1,12 @@
 import React from "react";
 import LeftTes from "./LeftTes";
 import RightTes from "./RightTes";
+import Star64 from "../../assets/star64.png";
 
 const Testimonials = () => {
   return (
-    <div className=" mt-96 flex flex-col">
+    <div className=" relative mt-96 flex flex-col">
+      <img className=" absolute right-0 -top-[150px]" src={Star64} alt="" />
       <div className=" text-center flex flex-col justify-center items-center">
         <h1 className="  uppercase text-[18px] font-[ClashDisplay-Medium] tracking-widest ">
           Testimonial
