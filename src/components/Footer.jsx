@@ -5,10 +5,14 @@ import Phone from "../assets/phone.png";
 
 const Footer = () => {
   return (
-    <div className=" mt-40">
+    <div className=" mt-40 dark:text-primary-white">
       <div className="  flex  justify-between">
         <div className=" flex gap-5 mt-[6px] flex-col">
-          <img className=" w-[106px] h-[35px]" src={Logo} alt="" />
+          <img
+            className=" min-w-[117px] min-h-[35px] dark:bg-primary-white  rounded-md  p-2"
+            src={Logo}
+            alt=""
+          />
           <p className="a flex items-center ">
             <img className=" w-[20px] h-[18px]" src={Mail} alt="" />
             <span className="a ml-3  font-[ClashDisplay-Medium]">
@@ -72,7 +76,7 @@ const Footer = () => {
 
           <form className="a bg-white py-2 px-4 w-[340px]  flex gap-3">
             <input
-              className=" w-[140px] outline-none "
+              className=" w-[140px] outline-none  dark:text-primary-black"
               type="text"
               placeholder=" Your email"
             />

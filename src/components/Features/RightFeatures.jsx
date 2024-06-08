@@ -11,12 +11,14 @@ const RightFeatures = () => {
       <h1 className="  uppercase text-[18px] font-[ClashDisplay-Medium] tracking-widest text-primary-red">
         Features
       </h1>
-      <h1 className=" font-[ClashDisplay-Bold] text-[48px] ">Uifry Premium</h1>
+      <h1 className=" dark:text-primary-white font-[ClashDisplay-Bold] text-[48px] ">
+        Uifry Premium
+      </h1>
 
       <div className=" mt-7 relative">
-        <h1 className=" flex text-lg font-[ClashDisplay-Semibold] gap-3 items-center">
+        <h1 className=" flex text-lg font-[ClashDisplay-Semibold] gap-3 items-center dark:text-primary-white">
           <img className=" size-5 " src={Features1} alt="" />
-          <span className=" tracking-wide  font-[ClashDisplay-Semibold] capitalize">
+          <span className=" tracking-wide  font-[ClashDisplay-Semibold] capitalize ">
             budgeting intervals
           </span>
         </h1>
@@ -26,7 +28,7 @@ const RightFeatures = () => {
         </p>
       </div>
       <div className=" mt-8 relative">
-        <h1 className=" flex text-lg font-[ClashDisplay-Semibold] tracking-wide gap-3 items-center">
+        <h1 className=" flex text-lg font-[ClashDisplay-Semibold] tracking-wide gap-3 items-center dark:text-primary-white">
           <img className=" size-5 " src={Features2} alt="" />
           <span className=" font-[ClashDisplay-Semibold] tracking-wide capitalize">
             budgeting intervals
@@ -38,7 +40,7 @@ const RightFeatures = () => {
         </p>
       </div>
       <div className=" mt-8">
-        <h1 className=" flex text-lg font-[ClashDisplay-Semibold] gap-3 items-center">
+        <h1 className=" flex text-lg font-[ClashDisplay-Semibold] gap-3 items-center dark:text-primary-white">
           <img className=" size-5 " src={Features3} alt="" />
           <span className=" font-[ClashDisplay-Semibold] capitalize">
             budgeting intervals

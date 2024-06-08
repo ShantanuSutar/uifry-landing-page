@@ -13,7 +13,7 @@ const Faq = () => {
         <h1 className="  uppercase text-[18px] font-[ClashDisplay-Medium] tracking-widest text-primary-red ">
           FAQ
         </h1>
-        <h1 className="  font-[ClashDisplay-Bold] text-[48px] capitalize mt-3  w-[450px] leading-none">
+        <h1 className="  font-[ClashDisplay-Bold] text-[48px] capitalize mt-3  w-[450px] leading-none dark:text-primary-white">
           frequently asked questions
         </h1>
       </div>
@@ -29,7 +29,7 @@ const Faq = () => {
               ultrices malesuada elit mauris
             </p>
           </div>
-          <div className="  text-primary-black rounded-md p-[28px] py-[32px]">
+          <div className="  text-primary-black dark:text-primary-white rounded-md p-[28px] py-[32px]">
             <h1 className=" capitalize text-[28px] font-[ClashDisplay-Semibold] leading-none">
               the best financial accounting app ever!
             </h1>
@@ -49,7 +49,7 @@ const Faq = () => {
           </div>
         </div>
         <div className=" w-[535px] flex flex-col h-[181px] gap-5">
-          <div className="  text-primary-black rounded-md p-[28px] py-[32px]">
+          <div className="  text-primary-black dark:text-primary-white rounded-md p-[28px] py-[32px]">
             <h1 className=" capitalize text-[28px] font-[ClashDisplay-Semibold] leading-none">
               the best financial accounting app ever!
             </h1>
@@ -67,7 +67,7 @@ const Faq = () => {
               ultrices malesuada elit mauris
             </p>
           </div>
-          <div className="  text-primary-black rounded-md p-[28px] py-[32px]">
+          <div className="  text-primary-black dark:text-primary-white rounded-md p-[28px] py-[32px]">
             <h1 className=" capitalize text-[28px] font-[ClashDisplay-Semibold] leading-none">
               the best financial accounting app ever!
             </h1>

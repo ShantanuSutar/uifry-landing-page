@@ -8,10 +8,10 @@ const Testimonials = () => {
     <div className=" relative mt-96 flex flex-col">
       <img className=" absolute right-0 -top-[150px]" src={Star64} alt="" />
       <div className=" text-center flex flex-col justify-center items-center">
-        <h1 className="  uppercase text-[18px] font-[ClashDisplay-Medium] tracking-widest ">
+        <h1 className="  uppercase text-[18px] font-[ClashDisplay-Medium] tracking-widest dark:text-primary-white ">
           Testimonial
         </h1>
-        <h1 className="  font-[ClashDisplay-Bold] text-[48px] capitalize mt-3  w-[400px] leading-none">
+        <h1 className="  font-[ClashDisplay-Bold] text-[48px] capitalize mt-3  w-[400px] leading-none dark:text-primary-white">
           what our users say about us?
         </h1>
       </div>

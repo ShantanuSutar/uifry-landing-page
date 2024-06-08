@@ -7,7 +7,7 @@ const FirstLeftAdv = () => {
       <h1 className="  uppercase text-[18px] font-[ClashDisplay-Medium] tracking-widest text-primary-red">
         Advantages
       </h1>
-      <h1 className="  font-[ClashDisplay-Bold] text-[48px] ">
+      <h1 className="  font-[ClashDisplay-Bold] text-[48px]  dark:text-primary-white">
         Why Choose Uifry?
       </h1>
       <div className=" mt-7">
@@ -15,7 +15,7 @@ const FirstLeftAdv = () => {
           <div className=" flex items-center justify-center size-11 bg-primary-red rounded-full">
             <img src={Bell} alt="" />
           </div>
-          <span className=" font-[ClashDisplay-Semibold] text-[28px]">
+          <span className=" font-[ClashDisplay-Semibold] text-[28px] dark:text-primary-white">
             Clever Options
           </span>
         </div>

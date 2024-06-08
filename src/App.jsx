@@ -1,3 +1,4 @@
+import { useContext, useState } from "react";
 import Advantages from "./components/Advantages/Advantages";
 import Download from "./components/Download/Download";
 import Faq from "./components/FAQ/Faq";
@@ -8,10 +9,13 @@ import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+  );
   return (
-    <div className=" bg-slate-50 w-full">
-      <div className="w-[1090px] flex justify-center flex-col  mx-auto bg-slate-50">
-        <Navbar />
+    <div className=" bg-slate-50 dark:bg-slate-950 w-full">
+      <div className="w-[1090px] flex justify-center flex-col  mx-auto bg-slate-50  dark:bg-slate-950">
+        <Navbar theme={theme} setTheme={setTheme} />
         <Hero />
         <Features />
         <Advantages />

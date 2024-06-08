@@ -5,6 +5,7 @@
 
 * {
   font-family: "ClashDisplay-Regular";
+  @apply transition-colors duration-500;
 }
 
 .heading-shadow {

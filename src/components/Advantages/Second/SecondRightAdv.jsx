@@ -9,7 +9,7 @@ const SecondRightAdv = () => {
           <div className=" flex items-center justify-center size-11 bg-primary-red rounded-full">
             <img src={NinjaBlade} alt="" />
           </div>
-          <span className=" font-[ClashDisplay-Semibold] text-[28px]">
+          <span className=" font-[ClashDisplay-Semibold] text-[28px] dark:text-primary-white">
             Fully Customizable
           </span>
         </div>
