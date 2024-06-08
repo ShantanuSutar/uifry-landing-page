@@ -2,8 +2,8 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <div className=" mt-72">
-      <div className="  flex flex-col">
+    <div className=" mt-72 min-h-screen  h-auto">
+      <div className="  flex flex-col ">
         <h1 className="  uppercase text-[18px] font-[ClashDisplay-Medium] tracking-widest text-primary-red ">
           FAQ
         </h1>
@@ -11,7 +11,7 @@ const Faq = () => {
           frequently asked questions
         </h1>
       </div>
-      <div className=" w-full  mt-16 flex gap-4">
+      <div className=" w-full min-h-[600px] mt-16 flex gap-4">
         <div className=" w-[535px] flex flex-col h-[181px]  gap-5">
           <div className=" bg-primary-red text-primary-white rounded-md p-[28px] py-[32px]">
             <h1 className=" capitalize text-[28px] font-[ClashDisplay-Semibold] leading-none">

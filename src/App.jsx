@@ -1,4 +1,5 @@
 import Advantages from "./components/Advantages/Advantages";
+import Download from "./components/Download/Download";
 import Faq from "./components/FAQ/Faq";
 import Features from "./components/Features/Features";
 import Hero from "./components/Hero/Hero";
@@ -14,6 +15,7 @@ function App() {
       <Advantages />
       <Testimonials />
       <Faq />
+      <Download />
     </div>
   );
 }
