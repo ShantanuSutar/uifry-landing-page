@@ -1,4 +1,5 @@
 import Advantages from "./components/Advantages/Advantages";
+import Faq from "./components/FAQ/Faq";
 import Features from "./components/Features/Features";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ function App() {
       <Features />
       <Advantages />
       <Testimonials />
+      <Faq />
     </div>
   );
 }
