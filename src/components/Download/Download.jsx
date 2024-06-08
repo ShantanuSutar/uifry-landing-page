@@ -49,8 +49,8 @@ const Download = () => {
           <p className="  capitalize [word-spacing:5px] leading-relaxed text-[18px]">
             Risus habitant leo egestas mauris diam eget morbi tempus vulputate.
           </p>
-          <button className=" bg-primary-white  flex text-primary-black w-[208px] h-[60px] rounded-md  items-center justify-center gap-2 relative ">
-            <span className=" mt-[2px] font-[ClashDisplay-Medium] text-[18px]">
+          <button className=" bg-primary-white  flex text-primary-black w-[208px] h-[60px] rounded-md  items-center justify-center gap-2 relative  hover:bg-primary-red ease-linear transition-all hover:text-white">
+            <span className=" mt-[2px] font-[ClashDisplay-Medium] text-[18px] ">
               Download App
             </span>
             <img className=" scale-90" src={AppleIcon} alt="" />

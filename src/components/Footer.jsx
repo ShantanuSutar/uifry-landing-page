@@ -24,28 +24,51 @@ const Footer = () => {
         </div>
         <div className=" flex flex-col gap-4">
           <h1 className=" text-[32px] font-[ClashDisplay-Medium]">Links</h1>
-          <p className=" font-[ClashDisplay-Medium]">Home</p>
-          <p className=" font-[ClashDisplay-Medium]">About Us</p>
-          <p className=" font-[ClashDisplay-Medium]">Bookings</p>
-          <p className=" font-[ClashDisplay-Medium]">Blog</p>
+          <p className="hover:text-primary-red font-[ClashDisplay-Medium]  hover:cursor-pointer">
+            {" "}
+            Home
+          </p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            About Us
+          </p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            Bookings
+          </p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            Blog
+          </p>
         </div>
         <div className=" flex flex-col gap-4">
           <h1 className=" text-[32px] font-[ClashDisplay-Medium]">Legal</h1>
-          <p className=" font-[ClashDisplay-Medium]">Terms of Use</p>
-          <p className=" font-[ClashDisplay-Medium]">Privacy Policy</p>
-          <p className=" font-[ClashDisplay-Medium]">Cookie Policy</p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            Terms of Use
+          </p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            Privacy Policy
+          </p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            Cookie Policy
+          </p>
         </div>
         <div className=" flex flex-col gap-4">
           <h1 className=" text-[32px] font-[ClashDisplay-Medium]">Product</h1>
-          <p className=" font-[ClashDisplay-Medium]">Take Tour</p>
-          <p className=" font-[ClashDisplay-Medium]">Live Chat</p>
-          <p className=" font-[ClashDisplay-Medium]">Reviews</p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            Take Tour
+          </p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            Live Chat
+          </p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            Reviews
+          </p>
         </div>
         <div className=" flex flex-col gap-4">
           <h1 className=" text-[32px] font-[ClashDisplay-Medium]">
             Newsletter
           </h1>
-          <p className=" font-[ClashDisplay-Medium]">Stay Up To Date</p>
+          <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
+            Stay Up To Date
+          </p>
 
           <form className="a bg-white py-2 px-4 w-[340px]  flex gap-3">
             <input
@@ -53,7 +76,7 @@ const Footer = () => {
               type="text"
               placeholder=" Your email"
             />
-            <button className=" w-[160px] h-[61px] rounded-md bg-black text-white ">
+            <button className=" w-[160px] h-[61px] rounded-md bg-black text-white  hover:bg-primary-red ease-linear transition-all">
               Subscribe
             </button>
           </form>

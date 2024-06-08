@@ -27,11 +27,11 @@ const Left = () => {
           faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
         </p>
         <div className=" flex relative  mt-6 justify-between w-[374px] h-[60px] items-center">
-          <button className=" w-[180px] h-[60px] bg-primary-black text-primary-white rounded-md flex justify-center items-center  gap-2">
+          <button className=" w-[180px] h-[60px] bg-primary-black text-primary-white rounded-md flex justify-center items-center  gap-2 hover:bg-primary-red ease-linear transition-all">
             <span>Get Started</span>
             <img src={Arrow} alt="" />
           </button>
-          <button className="a flex w-[154px] items-center justify-center h-[29px] gap-3">
+          <button className="a flex w-[154px] items-center justify-center h-[29px] gap-3 hover:text-primary-red hover:border-b-primary-red hover:border-b-2  py-7 ">
             <img src={Play} alt="" />
             <span className=" font-[ClashDisplay-Medium]">Watch Video</span>
           </button>
