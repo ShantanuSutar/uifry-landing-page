@@ -29,16 +29,20 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 ### React-icons
 
+## 
+
 ## Features:
 
-### Responsive – Desktop (Best - w:1090px), Mobile (Best - w:425px)
+Responsive – Desktop (Best - w:1090px), Mobile (Best - w:425px)
 
-### Dark Mode Implementation
+Dark Mode Implementation
 
-### Hover Effects and Transitions
+Hover Effects and Transitions
+
+## 
 
 ## Links
 
-### Live - https://uifry-landing-page-murex.vercel.app/
+Live - https://uifry-landing-page-murex.vercel.app/
 
-### Github - https://github.com/ShantanuSutar/uifry-landing-page
+Github - https://github.com/ShantanuSutar/uifry-landing-page
