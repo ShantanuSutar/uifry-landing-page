@@ -34,4 +34,5 @@ Hover Effects and Transitions
 ## Links
 
 Live - https://uifry-landing-page-murex.vercel.app/
+
 Github - https://github.com/ShantanuSutar/uifry-landing-page
