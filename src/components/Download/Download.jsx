@@ -47,7 +47,7 @@ const Download = () => {
         {/* Left */}
         <div className=" w-[62%] relative  h-[508px] justify-center gap-5  pl-20 flex flex-col">
           <img
-            className=" re absolute lg:-bottom-0 lg:left-[0] -bottom-[470px] -left-[30px] lg:scale-100 scale-75"
+            className=" re absolute lg:-bottom-0 lg:left-[0] -bottom-[466px] -left-[30px] lg:scale-100 scale-75"
             src={ELeft}
             alt=""
           />
@@ -73,7 +73,7 @@ const Download = () => {
           />
 
           <img
-            className=" absolute lg:left-[60px] lg:-top-0 -top-[570px] left-[100px] lg:scale-100 scale-75"
+            className=" absolute lg:left-[60px] lg:-top-0 -top-[567px] left-[78px] lg:scale-100 scale-75"
             src={ERight}
             alt=""
           />
