@@ -13,8 +13,11 @@ function App() {
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
   return (
-    <div className=" bg-slate-50 dark:bg-slate-950 w-full">
-      <div className="w-[1090px] flex justify-center flex-col  mx-auto bg-slate-50  dark:bg-slate-950">
+    <div
+      className=" bg-slate-50 dark:bg-slate-950 w-full  lg:overflow-auto overflow-hidden
+     "
+    >
+      <div className="lg:w-[1090px] w-[425px] flex justify-center flex-col  mx-auto bg-slate-50  dark:bg-slate-950">
         <Navbar theme={theme} setTheme={setTheme} />
         <Hero />
         <Features />

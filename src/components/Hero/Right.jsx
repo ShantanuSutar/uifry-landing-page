@@ -6,21 +6,25 @@ import ColorRight from "../../assets/colorheroright.png";
 
 const Right = () => {
   return (
-    <div className=" flex mt-20 w-[50%] relative">
+    <div className=" flex lg:mt-20 mt-72 lg:w-[50%] relative">
       <img
-        className=" absolute -top-[100px]  left-[180px]"
+        className=" absolute lg:-top-[100px]  lg:left-[180px]"
         src={ColorRight}
         alt=""
       />
 
-      <img className=" absolute left-44  -bottom-[370px]" src={Third} alt="" />
       <img
-        className=" scale-90 absolute left-[170px] -bottom-[330px]"
+        className=" absolute lg:left-44  lg:-bottom-[370px]"
+        src={Third}
+        alt=""
+      />
+      <img
+        className=" lg:scale-90 absolute lg:left-[170px] lg:-bottom-[330px]"
         src={Second}
         alt=""
       />
       <img
-        className=" scale-90 absolute left-[65px] -bottom-[260px]"
+        className=" lg:scale-90 absolute lg:left-[65px] lg:-bottom-[260px]"
         src={First}
         alt=""
       />

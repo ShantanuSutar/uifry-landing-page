@@ -7,12 +7,12 @@ import SecondRightAdv from "./Second/SecondRightAdv";
 const Advantages = () => {
   return (
     <div className=" mt-72">
-      <div className=" flex relative ">
+      <div className=" flex relative  lg:flex-row flex-col lg:mb-0 ">
         <FirstLeftAdv />
         <FirstRightAdv />
       </div>
-      <div className=" mt-96">
-        <div className=" flex relative">
+      <div className=" lg:mt-96 mt-[500px]">
+        <div className=" flex relative lg:flex-row flex-col-reverse">
           <SecondLeftAdv />
           <SecondRightAdv />
         </div>

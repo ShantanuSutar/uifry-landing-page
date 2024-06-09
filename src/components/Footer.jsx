@@ -5,11 +5,15 @@ import Phone from "../assets/phone.png";
 
 const Footer = () => {
   return (
-    <div className=" mt-40 dark:text-primary-white">
-      <div className="  flex  justify-between">
-        <div className=" flex gap-5 mt-[6px] flex-col">
+    <div className=" mt-40  dark:text-primary-white">
+      {/* Links */}
+      <div
+        className="  flex  flex-wrap flex-1  lg:flex-nowrap  lg:justify-between justify-evenly
+       lg:mx-0 mx-12 lg:gap-0 gap-5"
+      >
+        <div className=" flex gap-5 mt-[6px] flex-col lg:ml-0 -ml-10">
           <img
-            className=" min-w-[117px] min-h-[35px] dark:bg-primary-white  rounded-md  p-2"
+            className=" min-w-[117px] min-h-[35px] dark:bg-primary-white  rounded-md  p-2 lg:scale-100 scale-90"
             src={Logo}
             alt=""
           />
@@ -42,7 +46,7 @@ const Footer = () => {
             Blog
           </p>
         </div>
-        <div className=" flex flex-col gap-4">
+        <div className=" flex flex-col gap-4 lg:mt-0 mt-10">
           <h1 className=" text-[32px] font-[ClashDisplay-Medium]">Legal</h1>
           <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
             Terms of Use
@@ -54,7 +58,7 @@ const Footer = () => {
             Cookie Policy
           </p>
         </div>
-        <div className=" flex flex-col gap-4">
+        <div className=" flex flex-col gap-4 lg:ml-0 ml-10 lg:-mr-0 -mr-10 lg:mt-0 mt-10">
           <h1 className=" text-[32px] font-[ClashDisplay-Medium]">Product</h1>
           <p className=" hover:text-primary-red cursor-pointer font-[ClashDisplay-Medium]">
             Take Tour
@@ -66,7 +70,7 @@ const Footer = () => {
             Reviews
           </p>
         </div>
-        <div className=" flex flex-col gap-4">
+        <div className=" flex flex-col lg:gap-4 gap-2 lg:mt-0 mt-10 lg:mx-0 mx-6">
           <h1 className=" text-[32px] font-[ClashDisplay-Medium]">
             Newsletter
           </h1>
@@ -74,18 +78,19 @@ const Footer = () => {
             Stay Up To Date
           </p>
 
-          <form className="a bg-white py-2 px-4 w-[340px]  flex gap-3">
+          <form className="a bg-white py-2 px-4 lg:w-[340px] w-[300px]  flex gap-3">
             <input
               className=" w-[140px] outline-none  dark:text-primary-black"
               type="text"
               placeholder=" Your email"
             />
-            <button className=" w-[160px] h-[61px] rounded-md bg-black text-white  hover:bg-primary-red ease-linear transition-all">
+            <button className=" w-[160px] lg:h-[61px] h-[51px] rounded-md bg-black text-white  hover:bg-primary-red ease-linear transition-all">
               Subscribe
             </button>
           </form>
         </div>
       </div>
+      {/* Copyright */}
       <div>
         <hr className=" mt-28 " />
         <p className="a capitalize my-10 text-center font-[ClashDisplay-Medium] mb-16">

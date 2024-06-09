@@ -6,24 +6,24 @@ import ColorTes from "../../assets/colortes.png";
 
 const LeftTes = () => {
   return (
-    <div className=" w-[60%] ">
+    <div className=" lg:w-[60%] w-[425px] ">
       <img
-        className=" absolute  top-[70px] -left-[40px]"
+        className=" absolute  lg:top-[70px] lg:-left-[40px] lg:scale-100 scale-75 -left-16 top-4"
         src={ColorTes}
         alt=""
       />
 
       <img
-        className=" absolute -bottom-[110px] -left-[130px]"
+        className=" absolute lg:-bottom-[110px] lg:-left-[130px]"
         src={Star48}
         alt=""
       />
       <img
-        className=" absolute -top-[80px] -left-[65px]"
+        className=" absolute lg:-top-[80px] lg:-left-[65px]  lg:w-auto w-[425px]"
         src={TesEllipse}
         alt=""
       />
-      <img className=" absolute" src={TesWhole} alt="" />
+      <img className=" absolute " src={TesWhole} alt="" />
     </div>
   );
 };

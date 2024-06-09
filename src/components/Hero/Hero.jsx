@@ -4,7 +4,7 @@ import Right from "./Right";
 
 const Hero = () => {
   return (
-    <div className="w-[1090px] flex justify-center mt-8">
+    <div className="lg:w-[1090px] w-[425px] flex lg:flex-row flex-col justify-center lg:mt-8 ">
       <Left />
       <Right />
     </div>

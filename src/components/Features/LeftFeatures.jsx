@@ -6,11 +6,23 @@ import ColorFeatLeft from "../../assets/colorfeaturesleft.png";
 const LeftFeatures = () => {
   return (
     <div className=" w-[50%]">
-      <div className="   absolute  w-[720px]  right-[560px] h-[720px]   ">
-        <img className=" absolute " src={ColorFeatLeft} alt="" />
+      <div className="   absolute  lg:w-[720px] w-[425px]  lg:right-[560px] lg:h-[720px]   ">
+        <img
+          className=" absolute lg:top-0 top-[100px]"
+          src={ColorFeatLeft}
+          alt=""
+        />
 
-        <img className=" absolute top-[150px]" src={Star48} alt="" />
-        <img className=" relative scale-95" src={FeaturesMobile} alt="" />
+        <img
+          className=" absolute lg:top-[150px] top-[100px]"
+          src={Star48}
+          alt=""
+        />
+        <img
+          className=" relative lg:scale-95 lg:top-0 top-[100px]"
+          src={FeaturesMobile}
+          alt=""
+        />
       </div>
     </div>
   );

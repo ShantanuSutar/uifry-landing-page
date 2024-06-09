@@ -3,7 +3,7 @@ import TesSingle from "../../assets/testSingle.png";
 
 const RightTes = () => {
   return (
-    <div className=" w-[42%] mt-24 ml-8">
+    <div className=" lg:w-[42%] lg:mt-24 mt-[400px] ml-8">
       <h1 className=" capitalize text-[28px] font-[ClashDisplay-Semibold] leading-none dark:text-primary-white">
         the best financial accounting app ever!
       </h1>

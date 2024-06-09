@@ -12,10 +12,14 @@ import ColorRight from "../../assets/colordownloadright.png";
 
 const Download = () => {
   return (
-    <div className=" relative">
-      <img className=" absolute  -left-[200px]" src={ColorLeft} alt="" />
+    <div className=" relative lg:mx-0  mx-4 flex lg:block justify-center items-center ">
+      <img
+        className=" absolute  -left-[200px] top-0 lg:top-auto lg:scale-100 scale-75"
+        src={ColorLeft}
+        alt=""
+      />
 
-      <div className=" relative  mt-48 rounded-xl bg-primary-black w-full min-h-[508px] text-primary-white flex">
+      <div className=" relative  mt-48 rounded-xl bg-primary-black lg:w-full  w-[425px] min-h-[508px] text-primary-white flex  lg:flex-row flex-col">
         {/* Stars */}
         <img
           className=" absolute bottom-[100px] left-[450px]"
@@ -29,28 +33,32 @@ const Download = () => {
         />
 
         <img
-          className=" absolute -right-[130px] -top-[120px]"
+          className=" absolute lg:-right-[130px] -top-[120px] right-20 lg:scale-100 scale-75"
           src={Star64}
           alt=""
         />
 
         <img
-          className=" absolute right-[360px] top-10"
+          className=" absolute right-[320px] top-4 lg:scale-100 scale-75"
           src={Star64white}
           alt=""
         />
 
         {/* Left */}
         <div className=" w-[62%] relative  h-[508px] justify-center gap-5  pl-20 flex flex-col">
-          <img className=" re absolute -bottom-7 left-[0]" src={ELeft} alt="" />
-          <h1 className="  font-[ClashDisplay-Bold] text-[48px] capitalize  leading-none">
+          <img
+            className=" re absolute lg:-bottom-0 lg:left-[0] -bottom-[470px] -left-[30px] lg:scale-100 scale-75"
+            src={ELeft}
+            alt=""
+          />
+          <h1 className="  font-[ClashDisplay-Bold] lg:text-[48px] text-[44px] capitalize  leading-none">
             ready to get started?
           </h1>
-          <p className="  capitalize [word-spacing:5px] leading-relaxed text-[18px]">
+          <p className="  capitalize [word-spacing:5px] leading-relaxed lg:text-[18px]">
             Risus habitant leo egestas mauris diam eget morbi tempus vulputate.
           </p>
-          <button className=" bg-primary-white  flex text-primary-black w-[208px] h-[60px] rounded-md  items-center justify-center gap-2 relative  hover:bg-primary-red ease-linear transition-all hover:text-white">
-            <span className=" mt-[2px] font-[ClashDisplay-Medium] text-[18px] ">
+          <button className=" bg-primary-white  flex text-primary-black w-[208px] h-[60px] rounded-md  items-center justify-center gap-2 relative  hover:bg-primary-red ease-linear transition-all hover:text-white lg:scale-100 scale-90 lg:ml-0 -ml-3">
+            <span className=" mt-[2px] font-[ClashDisplay-Medium] lg:text-[18px] ">
               Download App
             </span>
             <img className=" scale-90" src={AppleIcon} alt="" />
@@ -59,13 +67,22 @@ const Download = () => {
         {/* Right */}
         <div className=" relative">
           <img
-            className=" absolute left-[60px]  top-4"
+            className=" absolute left-[20px] lg:scale-100 scale-75  top-4"
             src={ColorRight}
             alt=""
           />
 
-          <img className=" absolute left-[120px] -top-2" src={ERight} alt="" />
-          <img className=" mt-8 relative" src={DownloadIphones} alt="" />
+          <img
+            className=" absolute lg:left-[60px] lg:-top-0 -top-[570px] left-[100px] lg:scale-100 scale-75"
+            src={ERight}
+            alt=""
+          />
+          <img
+            className=" lg:mt-8 
+             pb-20 lg:pb-0 relative w-[425px]"
+            src={DownloadIphones}
+            alt=""
+          />
         </div>
       </div>
     </div>

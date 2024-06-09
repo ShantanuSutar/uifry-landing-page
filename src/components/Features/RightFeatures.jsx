@@ -5,13 +5,17 @@ import Features3 from "../../assets/features3.png";
 import ColorFeatRight from "../../assets/colorfeaturesright.png";
 const RightFeatures = () => {
   return (
-    <div className=" mt-32 w-[50%] relative ">
-      <img className=" absolute -right-[40%]" src={ColorFeatRight} alt="" />
+    <div className=" mt-32 lg:mx-0 mx-4 lg:w-[50%] w-[425px] relative">
+      <img
+        className=" absolute lg:-right-[40%] right-5"
+        src={ColorFeatRight}
+        alt=""
+      />
 
-      <h1 className="  uppercase text-[18px] font-[ClashDisplay-Medium] tracking-widest text-primary-red">
+      <h1 className="  uppercase lg:text-[18px] font-[ClashDisplay-Medium] tracking-widest text-primary-red">
         Features
       </h1>
-      <h1 className=" dark:text-primary-white font-[ClashDisplay-Bold] text-[48px] ">
+      <h1 className=" dark:text-primary-white font-[ClashDisplay-Bold] lg:text-[48px] text-[44px] ">
         Uifry Premium
       </h1>
 
